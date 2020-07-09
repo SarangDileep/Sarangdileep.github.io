@@ -1,0 +1,88 @@
+*{
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
+
+}
+
+
+body
+{font-family: 'Cabin Sketch', cursive;
+background-image:url(background.jpeg);
+background-repeat: no-repeat;
+background-size:cover;
+background-position: center center;
+background-attachment: fixed;
+
+}
+
+header {
+	display: flex;
+	width: 90%
+	margin: auto;
+	height: 100px;
+	align-items:center;
+
+}
+
+
+nav{
+flex: 5;
+
+}
+.nav-links{
+	display: flex;
+	justify-content: space-around;
+	list-style: none;
+	color: #f2ffe6;
+	font-size: 25px;
+	text-decoration: none;
+}
+a {
+    text-decoration: none;
+    color: #999;
+    font-family: 'Cabin Sketch', cursive;
+}
+a:hover {
+    text-decoration: underline;
+}
+.Intro-text h1{
+	font-size: 100px;
+	font-weight: 500;
+
+
+}
+
+.Intro-text h3{
+	padding: 20px 20px 20px 20px;
+	font-size: 50px;
+	font-weight: 300;
+}
+
+
+.Intro-text h4{
+	padding: 0px 0px 0px 20px;
+	font-size: 25px;
+	font-weight: 300;
+}
+
+.presentation{
+	padding-top: 20px;
+	align-items: center;
+}
+
+p,img{
+	float: left;
+}
+.quote,h2{
+	padding: 100px 10px 10px 10px;
+	font-weight:300px;
+	color: #f2ffe6;
+	font: bold;
+}
+@media screen and(max-width: 1024px)
+{
+	.presentation{
+		flex-direction: column;
+	}
+}
