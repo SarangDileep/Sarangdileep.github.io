@@ -1,0 +1,33 @@
+@use "../custom" as *;
+@use "../components/_mixins.scss" as *;
+
+@font-face {
+  font-family: parsel;
+  src: url(Parseltongue-GOnG.ttf);
+}
+.menu{
+
+    @include gradient;
+    li{
+    padding: 0,0.7rem;
+
+    }
+    a{
+    color:$white !important;
+    text-transform: capitalize;
+    font-weight: 600;
+    }
+
+}
+.parent {
+  position: relative;
+  top: 0;
+  left: 0;
+}
+
+.logo{
+color:$green-300;
+font-family:parsel;
+position:relative;
+}
+
